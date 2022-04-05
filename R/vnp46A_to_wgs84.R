@@ -5,6 +5,7 @@
 #'[purrr::map] to reproject all bands of all rasters contained in folder
 #'@param path \code{character} path to hd5 black marble product (VNP46A1 or VNP46A2)
 #'@return VNP46A raster/stack in WGS84
+#'@export
 #'@examples \dontrun{
 #'    library(terra)
 #'    vnp46a1_wgs84 <- vnp46A_to_wgs84(path = "../../raster/VNP46A1.A2022043.h21v04.001.2022044083115.h5")
@@ -27,6 +28,7 @@ vnp46A_to_wgs84 <-  function(path){
 #' get_vnp46A_extent
 #' @param path \code{character} path to hd5 black marble product (VNP46A1 or VNP46A2)
 #' @return A \code{numeric} vector containing new extent in correct extent format for `SpatRaster` class ([terra] package)
+#' @export
 
 get_vnp46A_extent <- function(path){
   file_meta<- terra::describe(path,meta=T,parse=T)
