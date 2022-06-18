@@ -115,3 +115,9 @@ if(write_rasters){
 }
 # ntl_rad_by_doy$`084`
 ```
+
+# Use-Case Examples
+
+[Impact-Initiatives Ukraine Night-time Lights Pre and Post Conflict
+Escalation - February vs March
+2022](https://www.impact-repository.org/document/impact/9718da8e/impact_ukraine_map_nighttime-lights_17Mar2022_a1.pdf)
